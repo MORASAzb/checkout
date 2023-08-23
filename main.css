@@ -136,7 +136,7 @@ p {
 .bigger {
 
     width: 260px;
-    margin-left: 22%;
+    margin-left: 20%;
 
 }
 
@@ -146,7 +146,7 @@ p {
 
 .smaller {
     width: 127px;
-    margin-left: 5%;
+    margin-left: 20%;
 }
 
 .smaller1 {
@@ -165,7 +165,9 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left:10%;
+    -ms-transform-origin-x:auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 45px;
     margin-top: 45px;
     color: rgba(255, 255, 255, 1);
